@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Basic CSS for the navigation bar */
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: hsl(240, 93%, 65%); /* Dark background color */
+    overflow: hidden; /* Clear floats */
+    height: 65px;
+
+  }
+  /* Style for the left-aligned logo or brand name */
+  .navbar .left {
+    float: left;
+    padding: 10px 20px;
+    color: white; /* Text color */
+    font-size: 26px; /* Font size */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Style for the right-aligned navigation links */
+  .navbar .right {
+    float: right;
+    font-size: 26px;
+  }
+  
+  /* Style for the navigation links (anchors) */
+  .navbar .right a {
+    color: white; /* Text color */
+    padding: 14px 20px; /* Padding around text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as block-level element */
+  }
+  
+  /* Hover effect for navigation links */
+  .navbar .right a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    max-width: 900px;
+    margin: 85px auto;
+    padding: 20px;
+    /* background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  /* Image styles */
+  .content-container .image-container {
+    flex: 0 0 auto;
+    width: 40%;
+    max-width: 420px; /* Limit maximum width of image */
+    margin-top: 2rem;
+ 
+  }
+
+  .content-container .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Text content styles */
+  .content-container .text-container {
+    flex: 1 1 auto;
+    padding-left: 100px;
+    margin-top:2rem;
+  }
+  /* Heading styles */
+  .content-container h1 {
+    color:rgb(13, 13, 14);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  /* Paragraph styles */
+  .content-container p {
+    color: #514949f5;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+</style>
+
+</head>
+<body>
+
+<div class="navbar">
+  <!-- Left-aligned logo or brand name -->
+  <div class="left">Digital Jounal</div>
+  
+  <!-- Right-aligned navigation links -->
+  <div class="right">
+    <a href="aboutus.htm">About Us</a>
+    <a href="contactus.htm">Contact Us</a>
+    <a href="welcome.htm">Home</a>
+  </div>
+</div>
+<div class="content-container">
+    <!-- Image on the middle left -->
+    <div class="image-container">
+      <img src="images/journal.jpg" alt="Image" width ="60%">
+    </div>
+  
+    <!--text on the right middle part -->
+    <div class="text-container">
+      <h1>Welcome to the Digital Journal</h1>
+      <p >Secure your secrets,notes and events with a simpler appraoch to Digital Journaling System .</p>
+    </div>
+  </div>
+  
+  <a href="index.htm" class="button">Get Started</a>
+  <style>
+  .button {
+    background-color:  hsl(240, 93%, 65%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+
+  
+  .button:hover {
+    background-color: #07650a;
+  }
+  .button{
+    position:absolute;
+    top:60%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    
+  }
+  </style>
+
+<!-- Content of the webpage would go here -->
+
+</body>
+</html>
